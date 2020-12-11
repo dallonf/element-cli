@@ -9,4 +9,5 @@ module.exports = {
     testRegex: "src/.*\\.spec\\.(ts)$",
     verbose: true,
     coverageReporters: ["text"],
+    setupFilesAfterEnv: ["<rootDir>/src/jest.setup.ts"],
 };
