@@ -1,0 +1,4 @@
+node_modules
+dist
+local/*.umd.js*
+.eslintcache

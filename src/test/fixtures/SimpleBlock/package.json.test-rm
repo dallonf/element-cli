@@ -1,0 +1,19 @@
+{
+    "name": "@volusion/element-block-starter",
+    "version": "1.0.3",
+    "description": "Provides a common starting point for all Element blocks",
+    "main": "index.js",
+    "scripts": {
+        "test": "block-scripts test --watch",
+        "build": "block-scripts test && block-scripts build",
+        "start": "block-scripts start"
+    },
+    "author": "Volusion, LLC",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@volusion/element-block-scripts": "^2.2.3",
+        "@volusion/element-block-utils": "^2.0.0",
+        "@volusion/element-proptypes": "^1.1.3"
+    }
+}

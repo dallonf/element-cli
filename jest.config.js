@@ -6,8 +6,7 @@ module.exports = {
     },
     testEnvironment: "node",
     rootDir: ".",
-    testRegex: "src/.*\\.spec\\.(ts)$",
+    testRegex: "src/.*\\.(spec|test)\\.(ts)$",
     verbose: true,
     coverageReporters: ["text"],
-    setupFilesAfterEnv: ["<rootDir>/src/jest.setup.ts"],
 };
